@@ -1,0 +1,14 @@
+{
+   "mixins": "stonehearth:jobs:archer",
+   "mixintypes": {
+      "parent_job": "remove",
+	   "parent_level_requirement": "remove"
+   },
+   "parent_jobs": [
+      {
+         "job": "stonehearth:jobs:footman",
+         "level_requirement": 2,
+         "one_of": true
+      }
+   ]
+}

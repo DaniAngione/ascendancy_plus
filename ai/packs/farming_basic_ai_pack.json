@@ -1,0 +1,17 @@
+{
+   "type": "ai_pack",
+   "actions": [
+      "stonehearth:actions:till_entire_field",
+      "stonehearth:actions:till_field_adjacent",
+      "ascendancy_plus:actions:plant_crop_basic",
+      "stonehearth:actions:plant_field_adjacent",
+      "stonehearth:actions:harvest_crop_adjacent",
+      "ascendancy_plus:actions:harvest_field_basic",
+      "stonehearth:actions:register_farm_field_worker"
+   ],
+   "ai_packs": [
+      "stonehearth:ai_pack:core",
+      "stonehearth:ai_pack:movement",
+      "stonehearth:ai_pack:carrying"
+   ]
+}

@@ -1,0 +1,17 @@
+{
+   "description": "i18n(ascendancy_plus:jobs.worker.worker_description.description)",
+   "abilities": "file(worker_abilities)",
+   "task_groups": [
+      "ascendancy_plus:task_groups:farming_basic"
+   ],
+   "roles": [
+      "farmer_basic"
+   ],
+   "equipment": {
+      "worker_farmer_tool": [
+         "ascendancy_plus:worker:pitchfork",
+         "ascendancy_plus:worker:pitchfork",
+         "ascendancy_plus:worker:torch"
+      ]
+   }
+}

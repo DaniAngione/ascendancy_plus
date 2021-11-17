@@ -1,0 +1,34 @@
+{
+   "type": "entity",
+   "mixins": [
+      "file(peasant_kitchen_pumpkin_soup_ghost.json)",
+      "ascendancy_plus:mixins:peasant_kitchen"
+   ],
+   "components": {
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(peasant_kitchen_pumpkin_soup_iconic.json)",
+         "ghost_form": "file(peasant_kitchen_pumpkin_soup_ghost.json)",
+         "placeable_on_ground": true
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 2
+      },
+      "stonehearth_ace:stump": {}
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "shop_info": {
+            "sellable": false
+         }
+      },
+      "stonehearth:stump_data": {
+         "stump_alias": "ascendancy_plus:furniture:peasant_kitchen:empty",
+         "apply_quality": false
+      },
+      "stonehearth:food_container": {
+         "effect": "fiddle",
+         "food": "stonehearth_ace:food:megacrop:pumpkin_soup_serving",
+         "stacks_per_serving": 1
+      }
+   }
+}

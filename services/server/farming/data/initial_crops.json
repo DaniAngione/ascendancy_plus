@@ -1,0 +1,20 @@
+{
+   "crops_by_kingdom": {
+      "ascendancy_plus:kingdoms:ascendancy_plus": {
+         "fallow": true,
+         "turnip": true,
+         "carrot": true,
+         "pumpkin": true,
+         "ascendancy_plus_silkweed": true,
+         "brightbell": true,
+         "frostsnap": true,
+         "corn": true,
+         "ascendancy_plus_wheat": true,
+         "oak_tree": true,
+         "juniper_tree": true,
+         "berry_bush": true,
+         "chestnut_tree": true,
+         "apple_tree": true
+      }
+   }
+}

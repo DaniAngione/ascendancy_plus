@@ -1,0 +1,50 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(worker_billhook_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "worker_farming_tool",
+         "roles": [
+            "worker_job"
+         ],
+         "ilevel": 2,
+         "injected_buffs": [
+            "ascendancy_plus:buffs:tools:worker_farming_tool_2"
+         ],
+         "injected_ai": {
+            "actions": [
+               "stonehearth:actions:harvest_field"
+            ]
+         },
+         "equipment_types": [
+            "tool"
+         ],
+         "equip_effect": "stonehearth:effects:weapon_level_up"
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 22,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(ascendancy_plus:jobs.worker.worker_billhook.display_name)",
+         "description": "i18n(ascendancy_plus:jobs.worker.worker_billhook.description)",
+         "icon": "file(worker_billhook.png)",
+         "category": "tool",
+         "material_tags": [
+            "iron",
+            "worker_billhook",
+            "civillian_equipment",
+            "stockpile_equipment"
+         ]
+      }
+   }
+}

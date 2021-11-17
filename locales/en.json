@@ -1,0 +1,146 @@
+{
+   "ai": {
+      "actions": {
+         "status_text": {
+            "refuel": "adding fuel to Peasant Kitchen",
+            "cooking": "preparing a peasant meal",
+            "chopping": "chopping firewood"
+         }
+      }
+   },
+   "jobs": {
+      "worker": {
+         "worker_description": {
+            "display_name": "Peasant",
+            "description": "Peasants perform basic work like harvesting resources, hauling stuff around and constructing buildings - but can also farm simple crops.",
+            "level_0_data": {
+               "title": "Peasant"
+            }
+         },
+         "worker_billhook": {
+            "display_name": "Worker's Billhook",
+            "description": "Allows a Peasant to harvest better crops and is also a decent weapon."
+         },
+         "worker_pitchfork": {
+            "display_name": "Worker's Pitchfork",
+            "description": "Primarily used as a farming tool but works alright as a weapon."
+         },
+         "worker_torch": {
+            "display_name": "Worker's Torch",
+            "description": "Get them! Get them! Set them on fire!"
+         }
+      },
+      "farmer": {
+         "farmer_description": {
+            "requirements": "Crafted by Blacksmith"
+         }
+      },
+      "blacksmith": {
+         "recipes": {
+            "worker_billhook_recipe": {
+               "description": "This tool allows a Peasant to harvest (but not plant) any kind of crop unlocked by the Farmer instead of just basic crops.",
+               "flavor": "It's also rather decent as a weapon!"
+            }
+         }
+      }
+   },
+   "data": {
+      "biome": {
+         "temperate": {
+            "display_name": "Temperate+",
+            "description": "Forests, rivers and mountains. Default home of the Ascendancy+.",
+            "random_location_names": {
+               "000": "Darkmoor Forest+"
+            }
+         }
+      },
+      "population": {
+         "ascendancy": {
+            "display_name": "The Ascendancy+"
+         }
+      }
+   },
+   "ui": {
+      "game": {
+         "menu": {
+            "zone_menu": {
+               "items": {
+                  "create_farm": {
+                     "required_job_text": "Requires a peasant"
+                  }
+               }
+            }
+         },
+         "unit_frame": {
+            "transform": {
+               "progress": {
+                  "refuel": "Lighting...",
+                  "cooking": "Preparing food...",               
+                  "chopping": "Splitting..."
+               }
+            }
+         }
+      }
+   },
+   "entities": {
+      "weapons": {
+         "iron_short_spear": {
+            "display_name": "Iron Short Spear"
+         }
+      },
+      "tools": {
+         "farmer_hoe_iron": {
+            "display_name": "Farmer's Steel Hoe"
+         }
+      },
+      "furniture": {
+         "peasant_kitchen": {
+            "display_name": "Peasant Kitchen",
+            "description": "Used by peasants to prepare their daily and simpler meals.",
+            "empty": {
+               "display_name": "Unlit Peasant Kitchen",
+               "description": "Requires some lower grade fuel to be used."
+            },
+            "pumpkin_soup": {
+               "display_name": "Peasant Pumpkin Soup",
+               "description": "Very warm and delicious, a great homemade meal!"
+            },
+            "porridge": {
+               "display_name": "Peasant Porridge",
+               "description": "Very filling and sweet meal to start off the day."
+            },
+            "meat_stew": {
+               "display_name": "Peasant Savory Meat Stew",
+               "description": "Nutritious and warm, a homemade delicacy!"
+            },
+            "grain_stew": {
+               "display_name": "Peasant Simple Grain Stew",
+               "description": "A simple yet revigorating meal."
+            },
+            "fish_stew": {
+               "display_name": "Peasant Peculiar Fish Stew",
+               "description": "Has a funny smell... But it should be good enough!"
+            },
+            "bread": {
+               "display_name": "Peasant Bread",
+               "description": "Still warm and ready to be eaten!"
+            },
+            "preparation": {
+               "description": "Being used by a peasant to prepare some food..."
+            }
+         }
+      },
+      "food": {
+         "porridge": {
+            "porridge_serving": {
+               "display_name": "Bowl of Porridge"
+            }
+         },
+         "grain_stew": {
+            "grain_stew_serving": {
+               "display_name": "Bowl of Simple Grain Stew"
+            }
+         }
+      }
+   }
+}

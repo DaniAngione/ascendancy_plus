@@ -1,0 +1,21 @@
+{
+   "craftable_recipes": {
+		"tools": {
+			"recipes": {
+				"farmer_hoe": {
+					"recipe": "file(farmer_hoe_recipe.json)"
+				}
+			}
+		},
+		"civillian_tools": {
+			"recipes": {
+				"farmer_hoe_iron": {
+					"recipe": "file(farmer_hoe_iron_recipe.json)"
+				},
+				"worker_billhook": {
+					"recipe": "file(worker_billhook_recipe.json)"
+				}
+			}
+		}
+   }
+}

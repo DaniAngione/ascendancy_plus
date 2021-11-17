@@ -1,0 +1,30 @@
+{
+   "mixins": [
+      "stonehearth:mixins:placed_object",
+      "ascendancy_plus:mixins:peasant_kitchen:ghost"
+   ],
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(peasant_kitchen_fish_stew.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(ascendancy_plus:entities.furniture.peasant_kitchen.fish_stew.display_name)",
+         "description": "i18n(ascendancy_plus:entities.furniture.peasant_kitchen.fish_stew.description)",
+         "category": "food",
+         "material_tags": [
+            "food_container",
+            "fish",
+            "meat",
+            "warming",
+            "dinner_time"
+         ]
+      }
+   }
+}

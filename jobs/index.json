@@ -1,0 +1,59 @@
+{
+   "mixins": "stonehearth:jobs:index",
+   "jobs": {
+      "stonehearth:jobs:archer": {
+         "description": "ascendancy_plus:jobs:archer"
+      },
+      "stonehearth:jobs:carpenter": {
+         "description": "ascendancy_plus:jobs:carpenter"
+      },
+      "stonehearth:jobs:cleric": {
+         "description": "ascendancy_plus:jobs:cleric"
+      },
+      "stonehearth:jobs:cook": {
+         "description": "ascendancy_plus:jobs:cook"
+      },
+      "stonehearth:jobs:potter": {
+         "description": "ascendancy_plus:jobs:potter"
+      },
+      "stonehearth:jobs:mason": {
+         "description": "ascendancy_plus:jobs:mason"
+      },
+      "stonehearth:jobs:knight": {
+         "description": "ascendancy_plus:jobs:knight"
+      },
+      "stonehearth:jobs:footman": {
+         "description": "ascendancy_plus:jobs:footman"
+      },
+      "stonehearth:jobs:herbalist": {
+         "description": "ascendancy_plus:jobs:herbalist"
+      },
+      "stonehearth_ace:jobs:brewer": {
+         "description": "ascendancy_plus:jobs:brewer"
+      },
+      "stonehearth:jobs:weaver": {
+         "description": "ascendancy_plus:jobs:weaver"
+      },
+      "stonehearth:jobs:engineer": {
+         "description": "ascendancy_plus:jobs:engineer"
+      },
+      "stonehearth:jobs:geomancer": {
+         "description": "ascendancy_plus:jobs:geomancer"
+      },
+      "stonehearth:jobs:blacksmith": {
+         "description": "ascendancy_plus:jobs:blacksmith"
+      },
+      "stonehearth:jobs:trapper": {
+         "description": "ascendancy_plus:jobs:trapper"
+      },
+      "stonehearth:jobs:shepherd": {
+         "description": "ascendancy_plus:jobs:shepherd"
+      },
+      "stonehearth:jobs:farmer": {
+         "description": "ascendancy_plus:jobs:farmer"
+      },
+      "stonehearth:jobs:worker": {
+         "description": "ascendancy_plus:jobs:worker"
+      }
+   }
+}

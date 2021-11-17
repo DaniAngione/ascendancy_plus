@@ -1,0 +1,34 @@
+{
+   "type": "entity",
+   "mixins": [
+      "file(peasant_kitchen_grain_veggie_ghost.json)",
+      "ascendancy_plus:mixins:peasant_kitchen"
+   ],
+   "components": {
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(peasant_kitchen_grain_veggie_iconic.json)",
+         "ghost_form": "file(peasant_kitchen_grain_veggie_ghost.json)",
+         "placeable_on_ground": true
+      },
+      "stonehearth_ace:transform": {}
+   },
+   "entity_data": {
+      "stonehearth_ace:transform_data": {
+         "progress_text": "ascendancy_plus:ui.game.unit_frame.transform.progress.cooking",
+         "status_key": "ascendancy_plus:ai.actions.status_text.cooking",
+         "transform_uri": "ascendancy_plus:furniture:peasant_kitchen:grain_stew",
+         "request_action": "stonehearth_ace:transform",
+         "transforming_worker_effect": "fiddle",
+         "transforming_worker_effect_times": 3,
+         "auto_request": true,
+         "worker_required_job": {
+            "stonehearth:jobs:worker": true
+         }
+      },
+      "stonehearth:net_worth": {
+         "shop_info": {
+            "sellable": false
+         }
+      }
+   }
+}

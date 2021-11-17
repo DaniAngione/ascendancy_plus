@@ -1,0 +1,12 @@
+{
+   "mixins": "/stonehearth/jobs/worker/worker_abilities/worker_abilities.json",
+   "components" : {
+      "stonehearth:equipment_piece" : {
+         "injected_ai" : {
+            "ai_packs" : [
+               "ascendancy_plus:ai_pack:farming_basic"
+            ]
+         }
+      }
+   }
+}

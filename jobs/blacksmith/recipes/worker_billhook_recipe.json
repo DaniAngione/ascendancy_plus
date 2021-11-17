@@ -1,0 +1,7 @@
+{
+   "mixins": "/stonehearth_ace/jobs/blacksmith/recipes/iron_short_spear_recipe.json",
+   "recipe_name": "i18n(ascendancy_plus:entities.tools.worker_billhook.display_name)",
+   "description": "i18n(ascendancy_plus:jobs.blacksmith.recipes.worker_billhook_recipe.description)",
+	"flavor": "i18n(ascendancy_plus:jobs.blacksmith.recipes.worker_billhook_recipe.flavor)",
+   "portrait": "/ascendancy_plus/entities/tools/worker_billhook/worker_billhook.png"
+}

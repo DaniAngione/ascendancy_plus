@@ -1,0 +1,55 @@
+{
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(worker_torch_equipped.qb)"
+            ]
+         }
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "mainhand",
+         "render_type": "attach_to_bone",
+         "ilevel": -1,
+         "postures": [
+            "stonehearth:combat"
+         ],
+         "no_drop": true,
+         "equipment_types": [
+            "tool"
+         ]
+      },
+      "effect_list": {
+         "default": "ascendancy_plus:effects:worker_torch_effect"
+      }
+   },
+   "entity_data": {
+      "stonehearth:buffs": {
+         "inflictable_debuffs": {
+            "infection": {
+               "uri": "stonehearth:buffs:archer:fire_arrow",
+               "chance": 0.3
+            }
+         }
+      },
+      "stonehearth:combat:weapon_data": {
+         "base_damage": 4,
+         "reach": 0.75
+      },
+      "stonehearth:combat:melee_attacks": [
+         {
+            "name": "combat_1h_forehand",
+            "effect": "combat_1h_forehand",
+            "active_frame": 16,
+            "cooldown": 0,
+            "priority": 0
+         }
+      ],
+      "stonehearth:catalog": {
+         "display_name": "i18n(ascendancy_plus:jobs.worker.worker_torch.display_name)",
+         "description": "i18n(ascendancy_plus:jobs.worker.worker_torch.description)",
+         "icon": "file(worker_torch.png)"
+      }
+   }
+}

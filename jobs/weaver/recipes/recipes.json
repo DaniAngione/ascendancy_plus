@@ -1,0 +1,58 @@
+{
+   "mixins": "/stonehearth/jobs/weaver/recipes/recipes.json",
+   "craftable_recipes": {
+      "weapons": {
+         "recipes": {
+            "cloth_padded_vest": {
+               "recipe": "file(cloth_padded_vest_recipe.json)"
+            },
+            "leather_helmet": {
+               "recipe": "file(leather_helmet_recipe.json)"
+            },
+            "leather_vest": {
+               "recipe": "file(leather_vest_recipe.json)"
+            },
+            "cloth_padded_helmet": {
+               "recipe": "file(cloth_padded_helmet_recipe.json)"
+            }
+         }
+      },
+	  "clothing_armor": {
+			"recipes": {
+            "worker_outfit_2": {
+               "recipe": "file(worker_outfit_2_recipe.json)"
+            },
+            "worker_outfit_winter": {
+               "recipe": "file(worker_outfit_winter_recipe.json)"
+            },
+            "backpack_cloth": {
+					"recipe": "file(backpack_cloth_recipe.json)"
+				},
+				"chilly_simple_worker_outfit": {
+					"recipe": "file(chilly_simple_worker_outfit_recipe.json)"
+				},
+				"cold_simple_worker_outfit": {
+					"recipe": "file(cold_simple_worker_outfit_recipe.json)"
+				},
+				"freezing_simple_worker_outfit": {
+					"recipe": "file(freezing_simple_worker_outfit_recipe.json)"
+				},
+				"cold_worker_outfit": {
+					"recipe": "file(cold_worker_outfit_recipe.json)"
+				},
+				"freezing_crafter_outfit": {
+					"recipe": "file(freezing_crafter_outfit_recipe.json)"
+				},
+				"freezing_field_work_outfit": {
+					"recipe": "file(freezing_field_work_outfit_recipe.json)"
+				},
+				"sunstroke_crafter_outfit": {
+					"recipe": "file(sunstroke_crafter_outfit_recipe.json)"
+				},
+				"sunstroke_field_work_outfit": {
+					"recipe": "file(sunstroke_field_work_outfit_recipe.json)"
+				}
+         }
+	  }
+   }
+}

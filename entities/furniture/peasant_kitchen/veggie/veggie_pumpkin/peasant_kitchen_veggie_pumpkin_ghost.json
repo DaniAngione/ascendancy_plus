@@ -1,0 +1,22 @@
+{
+   "mixins": [
+      "stonehearth:mixins:placed_object",
+      "ascendancy_plus:mixins:peasant_kitchen:ghost"
+   ],
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(peasant_kitchen_veggie_pumpkin.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(ascendancy_plus:entities.furniture.peasant_kitchen.display_name)",
+         "description": "i18n(ascendancy_plus:entities.furniture.peasant_kitchen.preparation.description)"
+      }
+   }
+}

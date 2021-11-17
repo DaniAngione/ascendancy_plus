@@ -1,0 +1,12 @@
+{
+   "mixins": "stonehearth:jobs:worker",
+   "display_name": "i18n(ascendancy_plus:jobs.worker.worker_description.display_name)",
+   "equipment": {
+      "torso": "file(worker_outfit)"
+   },
+   "level_data": {
+      "1": {
+         "title": "i18n(ascendancy_plus:jobs.worker.worker_description.level_0_data.title)"
+      }
+   }
+}

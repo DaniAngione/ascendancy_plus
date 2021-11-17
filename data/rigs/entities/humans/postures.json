@@ -1,0 +1,8 @@
+{
+   "stonehearth:peasant" : {
+      "hoe" : "hoe_peasant"
+   },
+   "stonehearth:billhook" : {
+      "hoe" : "hoe_billhook"
+   }
+}

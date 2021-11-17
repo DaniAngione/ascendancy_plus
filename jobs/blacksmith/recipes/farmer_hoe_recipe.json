@@ -1,0 +1,15 @@
+{
+   "mixins": "/stonehearth_ace/jobs/blacksmith/recipes/farmer_hoe_iron_recipe.json",
+   "recipe_name": "i18n(stonehearth:jobs.carpenter.recipes.hoe_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.carpenter.recipes.hoe_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.carpenter.recipes.hoe_recipe.flavor)",
+   "level_requirement": 2,
+   "mixintypes": {
+      "produces": "override"
+   },
+   "produces": [
+      {
+         "item": "stonehearth:farmer:talisman"
+      }
+   ]
+}

@@ -1,0 +1,24 @@
+{
+   "mixins": "/stonehearth/jobs/blacksmith/recipes/recipes.json",
+   "craftable_recipes": {
+		"legendary" : {
+			"recipes" : {}
+		},
+		"tools": {
+			"recipes": {}
+		},
+		"civillian_tools": {
+			"recipes": {}
+		},
+      "weapons": {
+         "recipes": {
+				"iron_short_spear" : {
+					"recipe" : "file(iron_short_spear_recipe.json)"
+				}
+         }
+      },
+      "armor": {
+         "recipes": {}
+      }
+   }
+}

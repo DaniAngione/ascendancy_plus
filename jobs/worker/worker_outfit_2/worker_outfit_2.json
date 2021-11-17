@@ -1,0 +1,44 @@
+{
+   "mixins": [
+      "/stonehearth/jobs/worker/worker_outfit_2/worker_outfit_2.json"
+   ],
+   "components": {
+      "model_variants": {
+         "mixintypes": {
+            "default": "override",
+            "female": "override"
+         },
+         "default": {
+            "layer": "clothing",
+            "transparent": false,
+            "models": [
+               "file(worker_outfit_2.qb)"
+            ]
+         },
+         "female": {
+            "layer": "clothing",
+            "models": [
+               "file(worker_outfit_2_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(worker_outfit_2_iconic.json)"
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "icon": "file(worker_outfit_2.png)",
+         "mixintypes": {
+            "material_tags": "override"
+         },
+         "material_tags": [
+            "worker_outfit",
+            "civillian_equipment",
+            "stockpile_equipment",
+            "cloth",
+            "ascendancy_plus_made"
+         ]
+      }
+   }
+}

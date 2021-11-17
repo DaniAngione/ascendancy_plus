@@ -1,0 +1,6 @@
+{
+   "mixins": "stonehearth:jobs:weaver",
+   "crafter": {
+      "recipe_list": "file(recipes/recipes.json)"
+   }
+}

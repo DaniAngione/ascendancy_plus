@@ -1,0 +1,32 @@
+{
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "/ascendancy_plus/entities/furniture/peasant_kitchen/peasant_kitchen.qb"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.1
+      },
+      "mob": {
+         "model_origin": { "x": 0.5, "y": 0, "z": 0.5 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 },
+         "allow_vertical_adjacent": false
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "icon": "/ascendancy_plus/entities/furniture/peasant_kitchen/peasant_kitchen.png",
+         "category": "workshops",
+         "material_tags": [
+            "stone",
+            "crafted",
+            "peasant_kitchen",
+            "tool",
+            "stockpile_tool"
+         ]
+      }
+   }
+}

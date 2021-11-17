@@ -1,0 +1,14 @@
+{
+   "info" : {
+      "name" : "ascendancy_plus_ui",
+      "deferred_load": true,
+      "client_only": true,
+      "version" : 3
+   },
+   "aliases" : {},
+   "mixintos" :  {
+      "stonehearth/data/ui/start_menu.json": "ascendancy_plus/data/ui/start_menu.json"
+   },
+   "overrides" : {},
+   "ui": {}
+}

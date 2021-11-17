@@ -1,0 +1,44 @@
+{
+   "type": "entity",
+   "mixins": [
+      "file(peasant_kitchen_ghost.json)",
+      "ascendancy_plus:mixins:peasant_kitchen"
+   ],
+   "components": {
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(peasant_kitchen_iconic.json)",
+         "ghost_form": "file(peasant_kitchen_ghost.json)",
+         "placeable_on_ground": true
+      },
+      "ascendancy_plus:peasant_kitchen": {},
+      "stonehearth_ace:transform": {}
+   },
+   "entity_data": {
+      "stonehearth_ace:transform_data": {
+         "progress_text": "ascendancy_plus:ui.game.unit_frame.transform.progress.cooking",
+         "status_key": "ascendancy_plus:ai.actions.status_text.cooking",
+         "transform_options": {
+            "grain": {
+               "transform_uri": "ascendancy_plus:furniture:peasant_kitchen:grain",
+               "request_action": "stonehearth_ace:transform",
+               "transform_ingredient_material": "grain",
+               "auto_request": true,
+               "worker_required_job": {
+                  "stonehearth:jobs:worker": true
+               },
+               "apply_ingredient_quality": true
+            },
+            "veggie": {
+               "transform_uri": "ascendancy_plus:furniture:peasant_kitchen:veggie",
+               "request_action": "stonehearth_ace:transform",
+               "transform_ingredient_material": "food_container raw_food vegetable",
+               "auto_request": true,
+               "worker_required_job": {
+                  "stonehearth:jobs:worker": true
+               },
+               "apply_ingredient_quality": true
+            }
+         }
+      }
+   }
+}

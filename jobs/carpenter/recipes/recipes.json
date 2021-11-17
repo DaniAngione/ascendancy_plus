@@ -1,0 +1,12 @@
+{
+   "mixins": "/stonehearth/jobs/carpenter/recipes/recipes.json",
+   "craftable_recipes": {
+		"tools": {
+			"recipes": {
+				"mixintypes": {
+					"hoe": "remove"
+				}
+			}
+		}
+   }
+}

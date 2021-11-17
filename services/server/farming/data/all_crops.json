@@ -1,0 +1,32 @@
+{
+   "crops": {
+      "turnip": {
+         "level_requirement": 0
+      },
+      "carrot": {
+         "level_requirement": 0
+      },
+      "ascendancy_plus_wheat": {
+         "crop_type": "stonehearth:crops:wheat_crop",
+         "ordinal": 3,
+         "level_requirement": 0,
+         "field_types": {
+            "farm": true
+         }
+      },
+      "golden_gourd": {
+         "level_requirement": 0
+      },
+      "sweet_potato": {
+         "level_requirement": 0
+      },
+      "ascendancy_plus_silkweed": {
+         "crop_type": "stonehearth:crops:silkweed_crop",
+         "ordinal": 5,
+         "level_requirement": 1,
+         "field_types": {
+            "farm": true
+         }
+      }
+   }
+}

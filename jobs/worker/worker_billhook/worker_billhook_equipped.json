@@ -1,0 +1,66 @@
+{
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(worker_billhook_equipped.qb)"
+            ]
+         }
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "mainhand",
+         "render_type": "attach_to_bone",
+         "ilevel": -1,
+         "postures": [
+            "stonehearth:combat"
+         ],
+         "no_drop": true,
+         "equipment_types": [
+            "tool"
+         ]
+      }
+   },
+   "entity_data": {
+      "stonehearth:buffs": {
+         "inflictable_debuffs": {
+            "out_of_balance": {
+               "uri": "stonehearth_ace:buffs:minor_out_of_balance",
+               "chance": 0.5
+            }
+         }
+      },
+      "stonehearth:combat:weapon_data": {
+         "base_damage": 9,
+         "reach": 1.3
+      },
+      "stonehearth:combat:melee_attacks": [
+         {
+            "name": "combat_1h_thrust",
+            "effect": "combat_1h_thrust",
+            "active_frame": 16,
+            "cooldown": 0,
+            "priority": 2
+         },
+         {
+            "name": "combat_1h_forehand",
+            "effect": "combat_1h_forehand",
+            "active_frame": 16,
+            "cooldown": 0,
+            "priority": 1
+         },
+         {
+            "name": "combat_2h_attack",
+            "effect": "combat_2h_attack",
+            "active_frame": 21,
+            "cooldown": 0,
+            "priority": 0
+         }
+      ],
+      "stonehearth:catalog": {
+         "display_name": "i18n(ascendancy_plus:jobs.worker.worker_billhook.display_name)",
+         "description": "i18n(ascendancy_plus:jobs.worker.worker_billhook.description)",
+         "icon": "file(worker_billhook.png)"
+      }
+   }
+}

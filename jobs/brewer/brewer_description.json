@@ -1,0 +1,19 @@
+{
+   "mixins": "stonehearth_ace:jobs:brewer",
+   "mixintypes": {
+      "parent_job": "remove",
+	   "parent_level_requirement": "remove"
+   },
+   "parent_jobs": [
+      {
+         "job": "stonehearth:jobs:herbalist",
+         "level_requirement": 2,
+         "one_of": true
+      },
+      {
+         "job": "stonehearth:jobs:cook",
+         "level_requirement": 2,
+         "one_of": true
+      }
+   ]
+}

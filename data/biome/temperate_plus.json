@@ -1,0 +1,16 @@
+{
+   "mixins": [
+      "stonehearth:biome:temperate"
+   ],
+   "alias": "ascendancy_plus:biome:temperate_plus",
+   "display_name": "i18n(ascendancy_plus:data.biome.temperate.display_name)",
+   "description": "i18n(ascendancy_plus:data.biome.temperate.description)",
+   "mixintypes": {
+      "random_location_names": "override"
+   },
+   "random_location_names": [
+      "i18n(ascendancy_plus:data.biome.temperate.random_location_names.000)"
+   ],
+   "image": "file(images/temperate_400x300.png)",
+   "generation_file": "file(temperate_plus_generation_data.json)"
+}

@@ -1,0 +1,10 @@
+{
+   "zone_menu": {
+		"items": {
+			"create_farm": {
+				"required_job": "stonehearth:jobs:worker",
+            "required_job_text": "i18n(ascendancy_plus:ui.game.menu.zone_menu.items.create_farm.required_job_text)"
+			}
+		}
+   }
+}

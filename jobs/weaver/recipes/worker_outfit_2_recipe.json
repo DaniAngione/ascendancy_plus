@@ -1,0 +1,12 @@
+{
+   "mixins": "/stonehearth/jobs/weaver/recipes/worker_outfit_2_recipe.json",
+   "portrait": "/ascendancy_plus/jobs/worker/worker_outfit_2/worker_outfit_2.png",
+   "mixintypes": {
+      "produces": "override"
+   },
+   "produces": [
+      {
+         "item": "ascendancy_plus:worker:outfit:2"
+      }
+   ]
+}

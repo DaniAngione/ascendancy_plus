@@ -1,0 +1,47 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "render_info": {
+         "scale": 0.09
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(porridge_serving.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:item": {
+         "category": "food",
+         "destroy_on_uncarry": true
+      },
+      "stonehearth:food": {
+         "stonehearth:sitting_on_chair": {
+            "satisfaction": 42,
+            "drink_satisfaction": 20
+         },
+         "default": {
+            "satisfaction": 30,
+            "drink_satisfaction": 15
+         },
+         "applied_buffs": [
+            "stonehearth_ace:buffs:consumption:sweet_energy",
+            "stonehearth_ace:buffs:consumption:regeneration:minor"
+         ],
+         "quality": 3
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(ascendancy_plus:entities.food.porridge.porridge_serving.display_name)",
+         "description": "",
+         "material_tags": [
+            "food",
+            "vegetarian",
+            "breakfast_time"
+         ],
+         "subject_override": "ascendancy_plus:furniture:peasant_kitchen"
+      }
+   }
+}

@@ -1,0 +1,95 @@
+{
+   "mixins": [
+      "stonehearth:kingdoms:ascendancy"
+   ],
+   "kingdom_id": "ascendancy_plus",
+   "favored_biome": "ascendancy_plus:biome:temperate_plus",
+   "display_name": "i18n(ascendancy_plus:data.population.ascendancy.display_name)",
+   "image": "/ascendancy_plus/data/kingdoms/images/ascendancy_plus_400x300.png",
+   "story_board_image": "/ascendancy_plus/data/kingdoms/images/story_board_image.png",
+   "starting_talisman": "stonehearth:mason:talisman",
+   "starting_resource": "stonehearth:resources:stone:hunk_of_stone",
+   "job_index": "ascendancy_plus:jobs:index",
+   "default_material": "stone_resource",
+   "ordinal": 1,
+   "roles": {
+      "default": {
+         "male": {
+            "given_names": []
+         },
+         "female": {
+            "given_names": []
+         },
+         "mixintypes": {
+            "surnames": "override"
+         },
+         "surnames": [
+            "Farstrider",
+            "Gwarin",
+            "Elliott",
+            "Boltoose",
+            "Freywind",
+            "Carvad",
+            "Edessa",
+            "Papp",
+            "Nonac",
+            "Keloch",
+            "Brightwell",
+            "Northpoint",
+            "Berall",
+            "Carlwine",
+            "Framer",
+            "Hunterton",
+            "Winset",
+            "Jondal",
+            "Baub",
+            "Hart",
+            "Woolden",
+            "Founder",
+            "Addion",
+            "Bendel",
+            "Coroda",
+            "Ember",
+            "Dorril",
+            "Fenton",
+            "Grail",
+            "Homer",
+            "Inverse",
+            "Jovil",
+            "Karn",
+            "Lessel",
+            "Mont",
+            "Nelvin",
+            "Oppen",
+            "Prestin",
+            "Quess",
+            "Raile",
+            "Stroden",
+            "Tenter",
+            "Umbro",
+            "Vondess",
+            "Wester",
+            "Yiss",
+            "Lebam",
+            "Mavel",
+            "Pounder",
+            "Zedro",
+            "Rayne",
+            "Rook",
+            "Belltower",
+            "Killian",
+            "Rell",
+            "Greenleaf",
+            "Cooper",
+            "Lou",
+            "Bishop",
+            "Cross"
+         ]
+      }
+   },
+   "town_pieces": {
+      "optional_prefix": [],
+      "town_name": [],
+      "suffix": []
+   }
+}

@@ -1,0 +1,26 @@
+{
+   "constants": {
+      "farming": {
+         "BASIC_CROPS": [
+            "fallow",
+            "stonehearth:crops:carrot_crop",
+            "stonehearth:crops:turnip_crop",
+            "stonehearth:crops:sweet_potato_crop",
+            "stonehearth:crops:golden_gourd_crop",
+            "stonehearth:crops:wheat_crop"  
+         ]
+      },
+      "combat": {
+         "town_alert_equipment_buffs": {
+            "ascendancy_plus:worker:billhook": "ascendancy_plus:buffs:worker:billhook",
+            "ascendancy_plus:worker:pitchfork": "ascendancy_plus:buffs:worker:pitchfork",
+            "ascendancy_plus:worker:torch": "ascendancy_plus:buffs:worker:torch"
+         }
+      },
+      "equipment": {
+         "SLOT_TO_BONE_MAP": {
+            "worker_farming_tool": "root"
+         }
+      }
+   }
+}

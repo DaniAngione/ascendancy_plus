@@ -1,0 +1,25 @@
+{
+   "components": {
+      "model_variants": {
+         "mixintypes": {
+            "default": "override"
+         },
+         "default": {
+            "models": [
+               "file(farmer_hoe.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 12,
+         "shop_info": {
+            "shopkeeper_level": 2
+         }
+      },
+      "stonehearth:catalog": {
+         "icon": "file(farmer_hoe.png)"
+      }
+   }
+}

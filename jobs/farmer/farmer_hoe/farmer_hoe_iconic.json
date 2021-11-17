@@ -1,0 +1,19 @@
+{
+   "components": {
+      "model_variants": {
+         "mixintypes": {
+            "default": "override"
+         },
+         "default": {
+            "models": [
+               "file(farmer_hoe.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "icon": "file(farmer_hoe.png)"
+      }
+   }
+}

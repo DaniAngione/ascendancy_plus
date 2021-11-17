@@ -1,0 +1,10 @@
+{
+   "components": {
+      "stonehearth:posture": {
+         "priorities": {
+            "stonehearth:peasant": 3,
+            "stonehearth:billhook": 4
+         }
+      }
+   }
+}

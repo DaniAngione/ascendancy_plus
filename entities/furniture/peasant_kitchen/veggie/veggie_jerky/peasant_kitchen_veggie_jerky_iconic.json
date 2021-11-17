@@ -1,0 +1,9 @@
+{
+   "mixins": [
+      "stonehearth:mixins:item_properties",
+      "ascendancy_plus:mixins:peasant_kitchen:iconic"
+   ],
+   "type": "entity",
+   "components": {},
+   "entity_data": {}
+}

@@ -1,0 +1,14 @@
+{
+   "components": {
+      "model_variants": {
+         "mixintypes": {
+            "default": "override"
+         },
+         "default": {
+            "models": [
+               "file(farmer_hoe_iron.qb)"
+            ]
+         }
+      }
+   }
+}

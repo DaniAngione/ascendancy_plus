@@ -1,0 +1,19 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "invisible_to_player": true,
+   "cant_affect_siege": true,
+   "script": "stonehearth_ace:buff_scripts:equip_during_buff",
+   "script_info": {
+      "equipment_cache_key": "worker_farming_tool",
+      "unequip_slots": {
+         "worker_farming_tool": true
+      },
+      "requires_any_of": [
+         "ascendancy_plus:worker:pitchfork"
+      ],
+      "add_equipment": [
+         "ascendancy_plus:worker:pitchfork:equipped"
+      ]
+   }
+}

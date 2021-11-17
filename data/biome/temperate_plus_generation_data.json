@@ -1,0 +1,207 @@
+{
+   "mixins": [
+      "/stonehearth/data/biome/temperate_generation_data.json"
+   ],
+   "palettes": {
+      "spring": {
+         "rock_layer_1": "#76726B",
+         "rock_layer_2": "#82807B",
+         "rock_layer_3": "#918D86",
+         "rock_layer_4": "#B3B0AA",
+         "rock_layer_5": "#C1C0BB",
+         "rock_layer_6": "#C1C0BB",
+         "rock_layer_7": "#C1C0BB",
+         "rock_layer_8": "#C1C0BB"
+      },
+      "summer": {},
+      "autumn": {
+         "rock_layer_1": "#6B6860",
+         "rock_layer_2": "#76726B",
+         "rock_layer_3": "#82807B",
+         "rock_layer_4": "#918D86",
+         "rock_layer_5": "#B3B0AA",
+         "rock_layer_6": "#C1C0bb",
+         "rock_layer_7": "#C1C0bb",
+         "rock_layer_8": "#C1C0bb",
+         "grass": "#bab859",
+         "grass_edge_1": "#c7c67a",
+         "grass_edge_2": "#c0bf69",
+         "grass_hills": "#bdb06a",
+         "grass_hills_edge_1": "#978c54",
+         "grass_hills_edge_2": "#aa9e5f"
+      },
+      "winter": {
+         "rock_layer_1": "#82807B",
+         "rock_layer_2": "#918D86",
+         "rock_layer_3": "#B3B0AA",
+         "rock_layer_4": "#C1C0bb",
+         "rock_layer_5": "#d3d2cf",
+         "rock_layer_6": "#d3d2cf",
+         "rock_layer_7": "#d3d2cf",
+         "rock_layer_8": "#d3d2cf",
+         "grass": "#aa9277",
+         "grass_edge_1": "#bba792",
+         "grass_edge_2": "#b29c84",
+         "grass_hills": "#cbbea3",
+         "grass_hills_edge_1": "#bfae8d",
+         "grass_hills_edge_2": "#c5b698"
+      }
+   },
+   "terrain": {
+      "noise_map_settings": {
+         "octaves": 4,
+         "persistence_ratio": 0.015,
+         "bandlimit": 3.5,
+         "aspect_ratio": 2
+      },
+      "plains_percentage": 55,
+      "mountains": {
+         "step_size": 20
+      }
+   },
+   "terrain_detailer" : {
+      "mountains" : {
+        "depth_function" : {
+          "persistence_ratio" : 0.01,
+          "amplitude" : 2,
+          "layer_thickness" : 2,
+          "unit_length" : 8
+        },
+        "height_function" : {
+          "amplitude" : 2.5,
+          "layer_thickness" : 8,
+          "unit_length" : 2
+        }
+      },
+      "foothills" : {
+        "depth_function" : {
+          "amplitude" : 2.5,
+          "unit_length" : 6
+        },
+        "height_function" : {
+          "octaves" : 4,
+          "layer_thickness" : 1
+        }
+      }
+    },
+   "landscape": {
+      "placement_table": {
+			"stonehearth:trees:snowy:juniper:small": {
+            "placement_type": "dense",
+            "parameters": {
+               "grid_multiple": 2,
+               "item_density": 0.5,
+               "exclusion_radius": 2
+            },
+            "mountains": {
+               "placement_type": "single",
+               "parameters": {
+                  "ground_radius": 0,
+                  "exclusion_radius": 3
+               }
+            }
+         },
+         "stonehearth:trees:snowy:pine:small": {
+            "placement_type": "dense",
+            "parameters": {
+               "grid_multiple": 3,
+               "item_density": 0.5,
+               "exclusion_radius": 5
+            },
+            "mountains": {
+               "placement_type": "single",
+               "parameters": {
+                  "ground_radius": 0,
+                  "exclusion_radius": 5
+               }
+            }
+         },
+			"stonehearth:trees:snowy:pine:medium" : {
+				"placement_type" : "single",
+				"parameters" : {
+					"ground_radius" : 3,
+					"exclusion_radius" : 5
+				}
+			},
+			"stonehearth:trees:snowy:pine:large" : {
+				"placement_type" : "single",
+				"parameters" : {
+					"ground_radius" : 4,
+					"exclusion_radius" : 7
+				}
+			},
+         "stonehearth:trees:snowy:juniper:medium" : {
+				"placement_type" : "single",
+				"parameters" : {
+					"ground_radius" : 2,
+					"exclusion_radius" : 4
+				}
+			},
+			"stonehearth:trees:snowy:juniper:large" : {
+				"placement_type" : "single",
+				"parameters" : {
+					"ground_radius" : 3,
+					"exclusion_radius" : 5
+				}
+			}
+      },
+		"trees": {
+			"sizes": {
+				"stonehearth:trees:snowy:juniper" : {
+					"small" : 0,
+					"medium" : 4,
+					"large" : 1
+				},
+				"stonehearth:trees:snowy:pine" : {
+					"small" : 0,
+					"medium" : 5,
+					"large" : 3
+				}
+			},
+			"weights": {
+				"foothills" : {
+					"1" : {
+						"stonehearth:trees:snowy:pine" : 0.4,
+                  "stonehearth:trees:snowy:juniper" : 0.2
+					},
+					"2" : {
+						"stonehearth:trees:snowy:pine" : 1.2,
+                  "stonehearth:trees:snowy:juniper" : 0.8
+					}
+				},
+            "mountains" : {
+					"1" : {
+						"stonehearth:trees:snowy:pine" : 2.5,
+                  "stonehearth:trees:snowy:juniper" : 1.5
+					}
+				}
+			}
+		},
+      "scattered": {
+         "plants": {
+            "weights": {
+               "foothills": {
+                  "1": {
+                     "stonehearth:trees:snowy:pine:small" : 0.45,
+                     "stonehearth:trees:snowy:juniper:small" : 0.2
+                  },
+                  "2": {
+                     "stonehearth:trees:snowy:pine:small" : 0.75,
+                     "stonehearth:trees:snowy:juniper:small" : 0.3
+                  }
+               },
+               "mountains": {
+                  "1": {
+                     "stonehearth:trees:snowy:pine:small" : 1,
+                     "stonehearth:trees:snowy:juniper:small" : 0.6
+                  },
+                  "2": {
+                     "stonehearth:trees:snowy:pine:small" : 4,
+                     "stonehearth:trees:snowy:juniper:small" : 2
+                  }
+               }
+            }
+         }
+      }
+   }
+}

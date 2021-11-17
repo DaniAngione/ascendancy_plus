@@ -1,0 +1,5 @@
+{
+   "mixins": "stonehearth:jobs:cook",
+   "parent_job": "stonehearth:jobs:worker",
+   "display_order": 2.5
+}

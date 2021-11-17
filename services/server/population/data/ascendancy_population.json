@@ -1,0 +1,22 @@
+{
+   "starting_talisman": "stonehearth:mason:talisman",
+   "starting_resource": "stonehearth:resources:stone:hunk_of_stone",
+   "default_material": "stone_resource",
+   "ordinal": 95,
+   "roles": {
+      "default": {
+         "male": {
+            "given_names": []
+         },
+         "female": {
+            "given_names": []
+         },
+         "surnames": []
+      }
+   },
+   "town_pieces": {
+      "optional_prefix": [],
+      "town_name": [],
+      "suffix": []
+   }
+}

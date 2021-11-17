@@ -1,0 +1,8 @@
+{
+   "kingdoms": {
+      "the_ascendancy_plus": "ascendancy_plus:kingdoms:ascendancy_plus",
+      "mixintypes": {
+         "the_ascendancy": "remove"
+      }
+   }
+}

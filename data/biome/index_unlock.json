@@ -1,0 +1,6 @@
+{
+   "biomes": {
+      "temperate": "ascendancy_plus:biome:temperate_plus",
+      "vanilla_temperate": "stonehearth:biome:temperate"
+   }
+}

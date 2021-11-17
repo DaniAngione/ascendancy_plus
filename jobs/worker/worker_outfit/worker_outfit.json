@@ -1,0 +1,31 @@
+{
+   "mixins": [
+      "/stonehearth/jobs/worker/worker_outfit/worker_outfit.json"
+   ],
+   "components": {
+      "model_variants": {
+         "mixintypes": {
+            "default": "override",
+            "female": "override"
+         },
+         "default": {
+            "layer": "clothing",
+            "transparent": false,
+            "models": [
+               "file(worker_outfit.qb)"
+            ]
+         },
+         "female": {
+            "layer": "clothing",
+            "models": [
+               "file(worker_outfit_female.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "icon": "file(worker_outfit.png)"
+      }
+   }
+}
