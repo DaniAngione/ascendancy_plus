@@ -1,0 +1,11 @@
+{
+   "styles": {
+      "head_hair": {
+         "values": {
+            "ascendancy_plus_hair_1": {
+               "file": "file(ascendancy_plus_hair_1.qb)"
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,49 @@
+{
+   "type": "effect",
+   "tracks": {
+      "fire": {
+         "type": "cubemitter",
+         "cubemitter": "/stonehearth_ace/data/horde/particles/fire/soup_coals.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0.42, "y": 0.1, "z": -0.42,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "embers": {
+         "type": "cubemitter",
+         "cubemitter": "/stonehearth_ace/data/horde/particles/fire/cook_workbench_embers.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0.42, "y": 0.2, "z": -0.42,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "crackle_sound": {
+         "type": "sound_effect",
+         "loop": true,
+         "start_time": 400,
+         "min_distance": 30,
+         "falloff": 2.5,
+         "volume": 60,
+         "track": "stonehearth:sounds:firepit_loop_sound"
+      },
+      "smoke": {
+         "type": "cubemitter",
+         "cubemitter": "/stonehearth_ace/data/horde/particles/fire/soup_smoke_plume.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0.3, "y": 1.4, "z": -0.3,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "light": {
+         "type": "light",
+         "light": "/stonehearth/data/horde/animatedlights/lamp/oil_lamp.animatedlight.json",
+         "transforms": { "x": 0.4, "y": 0.5, "z": -0.4 }
+      }
+   }
+}

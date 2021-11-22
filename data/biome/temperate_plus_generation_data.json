@@ -55,6 +55,10 @@
          "aspect_ratio": 2
       },
       "plains_percentage": 55,
+      "foothills": {
+         "step_size": 5,
+         "step_count": 2
+      },
       "mountains": {
          "step_size": 20
       }
@@ -63,7 +67,7 @@
       "mountains" : {
         "depth_function" : {
           "persistence_ratio" : 0.01,
-          "amplitude" : 2,
+          "amplitude" : 0.5,
           "layer_thickness" : 2,
           "unit_length" : 8
         },
@@ -73,15 +77,22 @@
           "unit_length" : 2
         }
       },
-      "foothills" : {
-        "depth_function" : {
-          "amplitude" : 2.5,
-          "unit_length" : 6
-        },
-        "height_function" : {
-          "octaves" : 4,
-          "layer_thickness" : 1
-        }
+      "foothills": {
+         "depth_function": {
+            "octaves": 4,
+            "persistence_ratio": 0.2,
+            "amplitude": 1.5,
+            "layer_thickness": 1,
+            "layer_count": 6,
+            "unit_length": 8
+         },
+         "height_function": {
+            "octaves": 4,
+            "persistence_ratio": 0.1,
+            "amplitude": 1.5,
+            "layer_thickness": 1,
+            "unit_length": 24
+         }
       }
     },
    "landscape": {

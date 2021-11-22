@@ -13,7 +13,15 @@
       "stonehearth:stacks": {
          "max_stacks": 4
       },
-      "stonehearth_ace:stump": {}
+      "stonehearth_ace:stump": {},
+      "effect_list": {
+         "mixintypes": {
+            "effects": "override"
+         },
+         "effects": [
+            "ascendancy_plus:effects:peasant_kitchen:smoking"
+         ]
+      }
    },
    "entity_data": {
       "stonehearth:net_worth": {

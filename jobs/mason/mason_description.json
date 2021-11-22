@@ -1,3 +1,6 @@
 {
-   "mixins": "stonehearth:jobs:mason"
+   "mixins": "stonehearth:jobs:mason",
+   "crafter": {
+      "recipe_list": "file(recipes/recipes.json)"
+   }
 }

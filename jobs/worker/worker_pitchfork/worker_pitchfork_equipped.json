@@ -4,7 +4,15 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(worker_pitchfork_equipped.qb)"
+               {
+                  "type": "one_of",
+                  "items": [
+                     "file(worker_pitchfork_equipped.qb)",
+                     "file(worker_pitchfork_equipped.qb)",
+                     "file(worker_pitchfork_equipped.qb)",
+                     "file(worker_pitchfork_equipped_2.qb)"
+                  ]
+               }
             ]
          }
       },

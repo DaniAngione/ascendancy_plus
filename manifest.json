@@ -24,6 +24,8 @@
       "buffs:worker:pitchfork": "file(data/buffs/worker/worker_pitchfork_buff.json)",
       "buffs:worker:torch": "file(data/buffs/worker/worker_torch_buff.json)",
       "data:constants": "file(data/constants.json)",
+      "effects:peasant_kitchen:idle": "file(data/effects/peasant_kitchen_effect/idle.json)",
+      "effects:peasant_kitchen:smoking": "file(data/effects/peasant_kitchen_effect/smoking.json)",
       "effects:worker_torch_effect": "file(data/effects/worker_torch_effect/worker_torch_effect.json)",
       "farmer:all_crops": "file(services/server/farming/data/all_crops.json)",
       "farmer:initial_crops": "file(services/server/farming/data/initial_crops.json)",
@@ -95,6 +97,7 @@
       "stonehearth/data/ui/start_menu.json": "ascendancy_plus/data/ui/vanilla_start_menu.json",
       "stonehearth/mixins/base_human/base_human.json": "file(mixins/base_human/base_human.json)",
       "stonehearth/jobs/carpenter/recipes/recipes.json": "file(jobs/carpenter/recipes/vanilla_recipes.json)",
+      "stonehearth/jobs/mason/recipes/recipes.json": "file(jobs/mason/recipes/vanilla_recipes.json)",
       "stonehearth/jobs/blacksmith/recipes/recipes.json": "file(jobs/blacksmith/recipes/vanilla_recipes.json)",
       "stonehearth/jobs/farmer/farmer_hoe/farmer_hoe.json": "file(jobs/farmer/farmer_hoe/farmer_hoe.json)",
       "stonehearth/jobs/farmer/farmer_hoe/farmer_hoe_talisman.json": "file(jobs/farmer/farmer_hoe/farmer_hoe_talisman.json)",
@@ -102,7 +105,12 @@
       "stonehearth_ace/entities/tools/farmer_hoe_iron/farmer_hoe_iron.json": "file(entities/tools/farmer_hoe_iron/farmer_hoe_iron.json)",
       "stonehearth_ace/entities/tools/farmer_hoe_iron/farmer_hoe_iron_iconic.json": "file(entities/tools/farmer_hoe_iron/farmer_hoe_iron_iconic.json)",
       "stonehearth/data/rigs/entities/humans/postures.json": "file(data/rigs/entities/humans/postures.json)",
-      "stonehearth/data/rigs/entities/rabbit_biped/postures.json": "file(data/rigs/entities/humans/postures.json)"
+      "stonehearth/data/rigs/entities/rabbit_biped/postures.json": "file(data/rigs/entities/humans/postures.json)",
+      "stonehearth/entities/humans/male/male_customizations.json": "file(entities/humans/male/male_customizations.json)",
+      "stonehearth/entities/humans/male/male_npc_1.json": "file(entities/humans/male/male_npc_1.json)",
+      "stonehearth/entities/humans/male/male_1.json": "file(entities/humans/male/male_1.json)",
+      "stonehearth/entities/humans/male/male_2.json": "file(entities/humans/male/male_2.json)",
+      "stonehearth/entities/humans/male/male_3.json": "file(entities/humans/male/male_3.json)"
    },
    "overrides": {
       "stonehearth/data/loadouts/images/items/farmer_hoe.png": "file(jobs/farmer/farmer_hoe/farmer_hoe.png)",

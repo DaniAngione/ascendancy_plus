@@ -19,6 +19,23 @@
                "max": { "x": 1, "y": 2, "z": 1 }
             }
          ]
+      },
+      "sensor_list": {
+         "sensors": {
+            "warmth": {
+               "radius": 6
+            }
+         }
+      },
+      "stonehearth:buffs": {
+         "buffs": {
+            "stonehearth_ace:buffs:weather:warmth_source": true
+         }
+      },
+      "effect_list": {
+         "effects": [
+            "ascendancy_plus:effects:peasant_kitchen:idle"
+         ]
       }
    },
    "entity_data": {

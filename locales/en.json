@@ -42,6 +42,15 @@
                "flavor": "It's also rather decent as a weapon!"
             }
          }
+      },
+      "mason": {
+         "recipes": {
+            "peasant_kitchen_recipe": {
+               "recipe_name": "Peasant Kitchen",
+               "description": "Can be used by peasants to prepare daily meals with simple ingredients.",
+               "flavor": "Peasant Kitchens are used automatically every morning and peasants will only try to use ingredients that are available"
+            }
+         }
       }
    },
    "data": {

@@ -1,0 +1,15 @@
+{
+   "entity_data": {
+      "stonehearth:customization_variants": {
+         "packages": {
+            "young": {
+               "head_hair": {
+                  "weights": {
+                     "ascendancy_plus_hair_1": 1
+                  }
+               }
+            }
+         }
+      }
+   }
+}

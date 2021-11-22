@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 30,
+   "work_units": 3,
+   "recipe_name": "i18n(ascendancy_plus:jobs.mason.recipes.peasant_kitchen_recipe.recipe_name)",
+   "description": "i18n(ascendancy_plus:jobs.mason.recipes.peasant_kitchen_recipe.description)",
+   "flavor": "i18n(ascendancy_plus:jobs.mason.recipes.peasant_kitchen_recipe.flavor)",
+   "portrait": "/ascendancy_plus/entities/furniture/peasant_kitchen/peasant_kitchen.png",
+   "workshop": "stonehearth:mason:workbench",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 2
+      },
+      {
+         "material": "wood resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "ascendancy_plus:furniture:peasant_kitchen:empty"
+      }
+   ]
+}

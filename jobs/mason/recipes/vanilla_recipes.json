@@ -1,0 +1,11 @@
+{
+   "craftable_recipes": {
+		"utility": {
+         "recipes": {
+            "peasant_kitchen": {
+               "recipe": "file(peasant_kitchen_recipe.json)"
+            }
+         }
+      }
+   }
+}

@@ -10,7 +10,22 @@
          "ghost_form": "file(peasant_kitchen_empty_ghost.json)",
          "placeable_on_ground": true
       },
-      "stonehearth_ace:transform": {}
+      "stonehearth_ace:transform": {},
+      "effect_list": {
+         "mixintypes": {
+            "effects": "remove"
+         }
+      },
+      "sensor_list": {
+         "mixintypes": {
+            "sensors": "remove"
+         }
+      },
+      "stonehearth:buffs": {
+         "buffs": {
+            "stonehearth_ace:buffs:weather:warmth_source": false
+         }
+      }
    },
    "entity_data": {
       "stonehearth_ace:transform_data": {

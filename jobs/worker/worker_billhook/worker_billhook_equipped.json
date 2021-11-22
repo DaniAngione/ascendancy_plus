@@ -4,7 +4,16 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(worker_billhook_equipped.qb)"
+               {
+                  "type": "one_of",
+                  "items": [
+                     "file(worker_billhook_equipped.qb)",
+                     "file(worker_billhook_equipped_2.qb)",
+                     "file(worker_billhook_equipped_2.qb)",
+                     "file(worker_billhook_equipped_3.qb)",
+                     "file(worker_billhook_equipped_4.qb)"
+                  ]
+               }
             ]
          }
       },

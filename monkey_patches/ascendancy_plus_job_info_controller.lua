@@ -2,7 +2,6 @@ local AscendancyPlusJobInfoController = class()
 
 local log = radiant.log.create_logger('job_info')
 
-AscendancyPlusJobInfoController._ascendancy_plus_old_manually_unlock_crop = AscendancyPlusJobInfoController.manually_unlock_crop
 function AscendancyPlusJobInfoController:manually_unlock_crop(crop_key, ignore_missing)
    if self._sv.alias ~= 'stonehearth:jobs:farmer' or self._sv.alias ~= 'stonehearth:jobs:worker' then
       radiant.verify(false, "Attempting to manually unlock crop %s when job %s does not have crops!", crop_key, self._sv.alias)
