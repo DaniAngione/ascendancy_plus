@@ -1,0 +1,47 @@
+{
+   "mixins": "stonehearth_ace:armor:legendary:mail",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "mixintypes": {
+            "default": "override",
+            "female": "override"
+         },
+         "default": {
+            "layer": "armor",
+            "transparent": "false",
+            "models": [
+               "file(legendary_mail.qb)"
+            ]
+         },
+         "female": {
+            "layer": "armor",
+            "transparent": "false",
+            "models": [
+               "file(legendary_mail_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(legendary_mail_iconic.json)"
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "Steel Hauberk",
+         "icon": "file(legendary_mail.png)",
+         "mixintypes": {
+            "material_tags": "override"
+         },
+         "material_tags": [
+            "armor",
+            "medium_armor",
+            "torso",
+            "stockpile_equipment",
+            "legendary",
+            "ascendancy_plus_made",
+            "crafted"
+         ]
+      }
+   }
+}

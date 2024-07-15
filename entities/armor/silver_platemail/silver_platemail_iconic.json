@@ -1,0 +1,22 @@
+{
+   "mixins": "/stonehearth/entities/armor/silver_mail/silver_mail_iconic.json",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "mixintypes": {
+            "default": "override"
+         },
+         "default": {
+            "models": [
+               "file(silver_platemail_iconic.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "Silver Lamellar Armor",
+         "icon": "file(silver_platemail.png)"
+      }
+   }
+}

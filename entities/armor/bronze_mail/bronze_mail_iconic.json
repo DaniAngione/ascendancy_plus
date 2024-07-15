@@ -1,0 +1,22 @@
+{
+   "mixins": "/stonehearth/entities/armor/bronze_breastplate/bronze_breastplate_iconic.json",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "mixintypes": {
+            "default": "override"
+         },
+         "default": {
+            "models": [
+               "file(bronze_mail_iconic.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "Bronze Hauberk",
+         "icon": "file(bronze_mail.png)"
+      }
+   }
+}

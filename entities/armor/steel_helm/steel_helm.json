@@ -1,0 +1,55 @@
+{
+   "mixins": "stonehearth_ace:armor:steel_helm",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "mixintypes": {
+            "default": "override",
+            "female": "override"
+         },
+         "default": {
+            "layer": "hat",
+            "transparent": "false",
+            "models": [
+               "file(steel_helm.qb)"
+            ]
+         },
+         "female": {
+            "layer": "hat",
+            "transparent": "false",
+            "models": [
+               "file(steel_helm_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(steel_helm_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "additional_equipment": {
+            "ascendancy_plus:armor:visor:steel:open": true
+         },
+         "combat_equipment": {
+            "ascendancy_plus:armor:visor:steel": true
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "Steel Northern Helm",
+         "icon": "file(steel_helm.png)",
+         "mixintypes": {
+            "material_tags": "override"
+         },
+         "material_tags": [
+            "steel",
+            "armor",
+            "helmet",
+            "medium_armor",
+            "ascendancy_plus_made",
+            "crafted",
+            "stockpile_equipment"
+         ]
+      }
+   }
+}

@@ -1,0 +1,8 @@
+{
+   "groups": {
+      "ascendancy_plus:chopping_block": {
+         "icon": "/ascendancy_plus/data/commands/chopping_block/chopping_block_category.png",
+         "ordinal": 10
+      }
+   }
+}

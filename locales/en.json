@@ -67,11 +67,41 @@
          "ascendancy": {
             "display_name": "The Ascendancy+"
          }
+      },
+      "commands": {
+         "chopping_block": {
+            "add_1": {
+               "display_name": "Add 1 to the Queue",
+               "description": "Add 1 extra bundle of firewood to be made to the current queue."
+            },
+            "add_2": {
+               "display_name": "Add 2 to the Queue",
+               "description": "Add 2 extra bundles of firewood to be made to the current queue."
+            },
+            "add_5": {
+               "display_name": "Add 5 to the Queue",
+               "description": "Add 5 extra bundles of firewood to be made to the current queue."
+            },
+            "add_10": {
+               "display_name": "Add 10 to the Queue",
+               "description": "Add 10 extra bundles of firewood to be made to the current queue."
+            }
+         }
       }
    },
    "ui": {
       "game": {
          "menu": {
+            "build_menu": {
+               "items": {
+                  "build_chopping_block": {
+                     "display_name": "Build Chopping Block",
+                     "description": "Order Workers to use a log of wood to set up a chopping block that can be used to split logs into usable firewood.",
+                     "tip_title": "Click to place a Chopping Block",
+                     "tip_description": "Once built, Workers will automatically chop firewood and try to keep all of your firewood sheds mostly filled."
+                  }
+               }
+            },
             "zone_menu": {
                "items": {
                   "create_farm": {
@@ -84,8 +114,17 @@
             "transform": {
                "progress": {
                   "refuel": "Lighting...",
-                  "cooking": "Preparing food...",               
+                  "cooking": "Preparing food...",
                   "chopping": "Splitting..."
+               }
+            }
+         }
+      },
+      "shell": {
+         "settings": {
+            "controls_tab": {
+               "key_binding_names": {
+                  "build_chopping_block": "Build Chopping Block"
                }
             }
          }
@@ -148,6 +187,16 @@
          "grain_stew": {
             "grain_stew_serving": {
                "display_name": "Bowl of Simple Grain Stew"
+            }
+         }
+      },
+      "construction": {
+         "chopping_block": {
+            "display_name": "Chopping Block",
+            "description": "Used by workers to keep a usable supply of firewood for the town.",
+            "placement_ghost": {
+               "display_name": "Chopping Block",
+               "description": "Waiting for a Worker to be built..."
             }
          }
       }

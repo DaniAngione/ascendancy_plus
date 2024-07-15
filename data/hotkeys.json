@@ -1,0 +1,12 @@
+{
+   "categories": {},
+   "keys": {
+      "build:chopping_block": {
+         "display_name": "i18n(ascendancy_plus:ui.shell.settings.controls_tab.key_binding_names.build_chopping_block)",
+         "category": "build",
+         "ordinal": 41.1,
+         "combo1": "ctrl+keyb",
+         "combo2": ""
+      }
+   }
+}

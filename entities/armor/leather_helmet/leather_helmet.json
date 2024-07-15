@@ -1,0 +1,47 @@
+{
+   "mixins": "stonehearth:armor:leather_helmet",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "mixintypes": {
+            "default": "override",
+            "female": "override"
+         },
+         "default": {
+            "layer": "hat",
+            "transparent": "false",
+            "models": [
+               "file(leather_helmet.qb)"
+            ]
+         },
+         "female": {
+            "layer": "hat",
+            "transparent": "false",
+            "models": [
+               "file(leather_helmet_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(leather_helmet_iconic.json)"
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "Hide Cap",
+         "icon": "file(leather_helmet.png)",
+         "mixintypes": {
+            "material_tags": "override"
+         },
+         "material_tags": [
+            "leather",
+            "armor",
+            "helmet",
+            "ascendancy_plus_made",
+            "light_armor",
+            "crafted",
+            "stockpile_equipment"
+         ]
+      }
+   }
+}

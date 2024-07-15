@@ -1,6 +1,20 @@
 {
    "mixins": "/stonehearth/jobs/carpenter/recipes/recipes.json",
    "craftable_recipes": {
+		"workbenches": {
+			"recipes": {
+				"mixintypes": {
+					"splitting_block": "remove"
+				}
+			}
+		},
+		"utility": {
+			"recipes": {
+				"mixintypes": {
+					"bundle_of_firewood": "remove"
+				}
+			}
+		},
 		"tools": {
 			"recipes": {
 				"mixintypes": {

@@ -1,0 +1,55 @@
+{
+   "mixins": "stonehearth:armor:silver_helmet",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "mixintypes": {
+            "default": "override",
+            "female": "override"
+         },
+         "default": {
+            "layer": "hat",
+            "transparent": "false",
+            "models": [
+               "file(silver_helmet.qb)"
+            ]
+         },
+         "female": {
+            "layer": "hat",
+            "transparent": "false",
+            "models": [
+               "file(silver_helmet_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(silver_helmet_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "additional_equipment": {
+            "ascendancy_plus:armor:visor:silver:open": true
+         },
+         "combat_equipment": {
+            "ascendancy_plus:armor:visor:silver": true
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "Silver Northern Helmet",
+         "icon": "file(silver_helmet.png)",
+         "mixintypes": {
+            "material_tags": "override"
+         },
+         "material_tags": [
+            "silver",
+            "armor",
+            "helmet",
+            "heavy_armor",
+            "na_made",
+            "crafted",
+            "stockpile_equipment"
+         ]
+      }
+   }
+}

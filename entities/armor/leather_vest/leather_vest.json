@@ -1,0 +1,52 @@
+{
+   "mixins": "stonehearth:armor:leather_vest",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "mixintypes": {
+            "default": "override",
+            "female": "override"
+         },
+         "default": {
+            "layer": "armor",
+            "transparent": "false",
+            "models": [
+               "file(leather_vest.qb)"
+            ]
+         },
+         "female": {
+            "layer": "armor",
+            "transparent": "false",
+            "models": [
+               "file(leather_vest_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(leather_vest_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "injected_buffs": [
+            "stonehearth_ace:buffs:weather:cold_resist"
+         ]
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "Hide Vest",
+         "icon": "file(leather_vest.png)",
+         "mixintypes": {
+            "material_tags": "override"
+         },
+         "material_tags": [
+            "leather",
+            "armor",
+            "ascendancy_plus_made",
+            "light_armor",
+            "torso",
+            "crafted",
+            "stockpile_equipment"
+         ]
+      }
+   }
+}

@@ -10,6 +10,21 @@
             "stonehearth:crops:wheat_crop"  
          ]
       },
+      "fuel_holders": {
+         "large": [
+            "stonehearth_ace:containers:fuel_holder:large:wood",
+            "stonehearth_ace:containers:fuel_holder:large:stone",
+            "stonehearth_ace:containers:fuel_holder:large:clay"
+         ],
+         "medium": [
+            "ascendancy_plus:containers:fuel_holder:wood",
+            "ascendancy_plus:containers:fuel_holder:stone",
+            "ascendancy_plus:containers:fuel_holder:clay"
+         ],
+         "small": [
+            "stonehearth_ace:containers:fuel_holder:small"
+         ]
+      },
       "combat": {
          "town_alert_equipment_buffs": {
             "ascendancy_plus:worker:billhook": "ascendancy_plus:buffs:worker:billhook",

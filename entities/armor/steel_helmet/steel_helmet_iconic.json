@@ -1,0 +1,22 @@
+{
+   "mixins": "/stonehearth/entities/armor/steel_helmet/steel_helmet_iconic.json",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "mixintypes": {
+            "default": "override"
+         },
+         "default": {
+            "models": [
+               "file(steel_helmet_iconic.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "Steel Northern Helmet",
+         "icon": "file(steel_helmet.png)"
+      }
+   }
+}

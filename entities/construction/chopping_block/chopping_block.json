@@ -1,0 +1,96 @@
+{
+   "type": "entity",
+   "mixins": "file(chopping_block_ghost.json)",
+   "components": {
+      "stonehearth:entity_forms": {
+         "ghost_form": "file(chopping_block_ghost.json)",
+         "iconic_form": "file(chopping_block_iconic.json)",
+         "placeable_on_ground": true
+      },
+      "destination": {
+         "region": [
+            {
+               "min": { "x": -1, "y": 0, "z": -1 },
+               "max": { "x": 1, "y": 1, "z": 1 }
+            }
+         ],
+         "adjacency_flags": [
+            "left",
+            "right",
+            "front",
+            "back"
+         ]
+      },
+      "region_collision_shape": {
+         "region": [
+            {
+               "min": { "x": -1, "y": 0, "z": -1 },
+               "max": { "x": 1, "y": 2, "z": 1 }
+            }
+         ]
+      },
+      "ascendancy_plus:chopping_block": {},
+      "effect_list": {
+         "default": "/stonehearth_ace/data/rigs/jobs/carpenter/splitting_block/effects/idle.json"
+      },
+      "stonehearth_ace:transform": {},
+      "stonehearth:loot_drops": {
+         "entries": {
+            "default": {
+               "num_rolls": {
+                  "min": 1,
+                  "max": 1
+               },
+               "items": {
+                  "firewood": {
+                     "uri": "stonehearth_ace:resources:fuel:bundle_of_firewood"
+                  }
+               }
+            }
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth_ace:transform_data": {
+         "status_key": "ascendancy_plus:ai.actions.status_text.chopping",
+         "transform_options": {
+            "chop_wood": {
+               "progress_text": "ascendancy_plus:ui.game.unit_frame.transform.progress.chopping",
+               "transform_uri": "ascendancy_plus:chopping_block",
+               "request_action": "stonehearth_ace:transform",
+               "request_action_overlay_effect": "stonehearth:effects:chop_overlay_effect",
+               "transform_ingredient_material": "wood resource",
+               "transforming_effect": "work",
+               "transforming_worker_effect": "chop_block",
+               "transforming_worker_effect_times": 2,
+               "transform_effect": "stonehearth:effects:item_created",
+               "auto_request": false,
+               "worker_required_job": {
+                  "stonehearth:jobs:worker": true,
+                  "stonehearth:jobs:carpenter": true
+               },
+               "kill_entity": true
+            }
+         }
+      },
+      "stonehearth:table": {
+         "drop_effect": "carry_putdown_on_table",
+         "drop_offset": { "x": -0.5, "y": 0.8, "z": -0.5 }
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 1,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:appeal": {
+         "appeal": 3
+      },
+      "stonehearth:item_quality": {
+         "variable_quality": true
+      }
+   }
+}

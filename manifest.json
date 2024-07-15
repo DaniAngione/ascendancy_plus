@@ -16,6 +16,28 @@
       "actions:harvest_field_basic": "file(ai/actions/harvest_field_basic_action.lua)",
       "actions:plant_crop_basic": "file(ai/actions/plant_crop_basic.lua)",
       "ai_pack:farming_basic": "file(ai/packs/farming_basic_ai_pack.json)",
+      "armor:bronze_helm": "file(entities/armor/bronze_helm/bronze_helm.json)",
+      "armor:bronze_mail": "file(entities/armor/bronze_mail/bronze_mail.json)",
+      "armor:cloth_padded_helmet": "file(entities/armor/cloth_padded_helmet/cloth_padded_helmet.json)",
+      "armor:cloth_padded_vest": "file(entities/armor/cloth_padded_vest/cloth_padded_vest.json)",
+      "armor:iron_helm": "file(entities/armor/iron_helm/iron_helm.json)",
+      "armor:iron_mail": "file(entities/armor/iron_mail/iron_mail.json)",
+      "armor:leather_helmet": "file(entities/armor/leather_helmet/leather_helmet.json)",
+      "armor:leather_vest": "file(entities/armor/leather_vest/leather_vest.json)",
+      "armor:legendary:helm": "file(entities/armor/legendary_helm/legendary_helm.json)",
+      "armor:legendary:helmet": "file(entities/armor/legendary_helmet/legendary_helmet.json)",
+      "armor:legendary:mail": "file(entities/armor/legendary_mail/legendary_mail.json)",
+      "armor:legendary:platemail": "file(entities/armor/legendary_platemail/legendary_platemail.json)",
+      "armor:silver_helmet": "file(entities/armor/silver_helmet/silver_helmet.json)",
+      "armor:silver_platemail": "file(entities/armor/silver_platemail/silver_platemail.json)",
+      "armor:steel_helm": "file(entities/armor/steel_helm/steel_helm.json)",
+      "armor:steel_helmet": "file(entities/armor/steel_helmet/steel_helmet.json)",
+      "armor:steel_mail": "file(entities/armor/steel_mail/steel_mail.json)",
+      "armor:steel_platemail": "file(entities/armor/steel_platemail/steel_platemail.json)",
+      "armor:visor:silver": "file(entities/armor/visor/silver_visor.json)",
+      "armor:visor:silver:open": "file(entities/armor/visor/silver_visor_open.json)",
+      "armor:visor:steel": "file(entities/armor/visor/steel_visor.json)",
+      "armor:visor:steel:open": "file(entities/armor/visor/steel_visor_open.json)",
       "biome:index": "file(data/biome/index.json)",
       "biome:temperate_plus": "file(data/biome/temperate_plus.json)",
       "buffs:tools:worker_farming_tool": "file(data/buffs/equipment/tools/worker_farming_tool_buff.json)",
@@ -23,6 +45,13 @@
       "buffs:worker:billhook": "file(data/buffs/worker/worker_billhook_buff.json)",
       "buffs:worker:pitchfork": "file(data/buffs/worker/worker_pitchfork_buff.json)",
       "buffs:worker:torch": "file(data/buffs/worker/worker_torch_buff.json)",
+      "chopping_block": "file(entities/construction/chopping_block/chopping_block.json)",
+      "chopping_block_placement_ghost": "file(entities/construction/chopping_block/chopping_block_placement_ghost.json)",
+      "commands:chopping_block:add_1": "file(data/commands/chopping_block/add_1_chopping_block.json)",
+      "commands:chopping_block:add_10": "file(data/commands/chopping_block/add_10_chopping_block.json)",
+      "commands:chopping_block:add_2": "file(data/commands/chopping_block/add_2_chopping_block.json)",
+      "commands:chopping_block:add_5": "file(data/commands/chopping_block/add_5_chopping_block.json)",
+      "containers:fuel_holder:wood": "file(entities/containers/fuel_holder_wood/fuel_holder_wood.json)",
       "data:constants": "file(data/constants.json)",
       "effects:peasant_kitchen:idle": "file(data/effects/peasant_kitchen_effect/idle.json)",
       "effects:peasant_kitchen:smoking": "file(data/effects/peasant_kitchen_effect/smoking.json)",
@@ -31,6 +60,7 @@
       "farmer:initial_crops": "file(services/server/farming/data/initial_crops.json)",
       "food:grain_stew:grain_stew_serving": "file(entities/food/grain_stew/grain_stew_serving/grain_stew_serving.json)",
       "food:porridge:porridge_serving": "file(entities/food/porridge/porridge_serving/porridge_serving.json)",
+      "footman:outfit": "file(jobs/footman/footman_outfit/footman_outfit.json)",
       "furniture:peasant_kitchen": "file(entities/furniture/peasant_kitchen/peasant_kitchen.json)",
       "furniture:peasant_kitchen:bread": "file(entities/furniture/peasant_kitchen/grain/grain_grain/peasant_kitchen_bread.json)",
       "furniture:peasant_kitchen:empty": "file(entities/furniture/peasant_kitchen/peasant_kitchen_empty.json)",
@@ -47,6 +77,7 @@
       "furniture:peasant_kitchen:veggie:fish": "file(entities/furniture/peasant_kitchen/veggie/veggie_fish/peasant_kitchen_veggie_fish.json)",
       "furniture:peasant_kitchen:veggie:jerky": "file(entities/furniture/peasant_kitchen/veggie/veggie_jerky/peasant_kitchen_veggie_jerky.json)",
       "furniture:peasant_kitchen:veggie:pumpkin": "file(entities/furniture/peasant_kitchen/veggie/veggie_pumpkin/peasant_kitchen_veggie_pumpkin.json)",
+      "hotkeys": "file(data/hotkeys.json)",
       "jobs:archer": "file(jobs/archer/archer_description.json)",
       "jobs:blacksmith": "file(jobs/blacksmith/blacksmith_description.json)",
       "jobs:brewer": "file(jobs/brewer/brewer_description.json)",
@@ -68,10 +99,12 @@
       "jobs:worker": "file(jobs/worker/worker_description.json)",
       "kingdoms:ascendancy": "file(services/server/population/data/ascendancy_population.json)",
       "kingdoms:ascendancy_plus": "file(services/server/population/data/ascendancy_plus_population.json)",
+      "knight:outfit": "file(jobs/knight/knight_outfit/knight_outfit.json)",
       "mixins:peasant_kitchen": "file(mixins/peasant_kitchen/peasant_kitchen_mixin.json)",
       "mixins:peasant_kitchen:ghost": "file(mixins/peasant_kitchen/peasant_kitchen_ghost_mixin.json)",
       "mixins:peasant_kitchen:iconic": "file(mixins/peasant_kitchen/peasant_kitchen_iconic_mixin.json)",
       "playable_kingdom_index": "file(data/kingdoms/playable_kingdom_index.json)",
+      "scripts:buildable:build_chopping_block": "file(data/buildable/build_chopping_block.lua)",
       "task_groups:farming_basic": "file(ai/task_groups/farming_basic_task_group.lua)",
       "task_groups:farming_basic_harvest": "file(ai/task_groups/farming_basic_harvest_task_group.lua)",
       "weapons:iron_short_spear": "file(entities/weapons/iron_short_spear/iron_short_spear.json)",
@@ -88,6 +121,7 @@
       "stonehearth:biome:index": "ascendancy_plus:biome:index",
       "stonehearth:playable_kingdom_index": "ascendancy_plus:playable_kingdom_index",
       "stonehearth:data:constants": "ascendancy_plus:data:constants",
+      "stonehearth:hotkeys": "ascendancy_plus:hotkeys",
       "stonehearth:kingdoms:ascendancy": "ascendancy_plus:kingdoms:ascendancy",
       "stonehearth/services/server/population/data/player_task_groups.json": "file(services/server/population/data/player_task_groups.json)",
       "stonehearth:jobs:worker": "file(jobs/worker/vanilla_worker_description.json)",
@@ -102,25 +136,46 @@
       "stonehearth/jobs/farmer/farmer_hoe/farmer_hoe.json": "file(jobs/farmer/farmer_hoe/farmer_hoe.json)",
       "stonehearth/jobs/farmer/farmer_hoe/farmer_hoe_talisman.json": "file(jobs/farmer/farmer_hoe/farmer_hoe_talisman.json)",
       "stonehearth/jobs/farmer/farmer_hoe/farmer_hoe_iconic.json": "file(jobs/farmer/farmer_hoe/farmer_hoe_iconic.json)",
+      "stonehearth_ace/ui/data/command_groups.json": "file(ui/data/command_groups.json)",
+      "stonehearth_ace:data:inventory_trackers": "file(data/inventory_trackers/inventory_trackers.json)",
       "stonehearth_ace/entities/tools/farmer_hoe_iron/farmer_hoe_iron.json": "file(entities/tools/farmer_hoe_iron/farmer_hoe_iron.json)",
       "stonehearth_ace/entities/tools/farmer_hoe_iron/farmer_hoe_iron_iconic.json": "file(entities/tools/farmer_hoe_iron/farmer_hoe_iron_iconic.json)",
+      "stonehearth/data/gm/campaigns/town_progression/town_progression_campaign.json": "file(data/gm/campaigns/town_progression/town_progression_campaign.json)",
       "stonehearth/data/rigs/entities/humans/postures.json": "file(data/rigs/entities/humans/postures.json)",
       "stonehearth/data/rigs/entities/rabbit_biped/postures.json": "file(data/rigs/entities/humans/postures.json)",
       "stonehearth/entities/humans/male/male_customizations.json": "file(entities/humans/male/male_customizations.json)",
       "stonehearth/entities/humans/male/male_npc_1.json": "file(entities/humans/male/male_npc_1.json)",
       "stonehearth/entities/humans/male/male_1.json": "file(entities/humans/male/male_1.json)",
       "stonehearth/entities/humans/male/male_2.json": "file(entities/humans/male/male_2.json)",
-      "stonehearth/entities/humans/male/male_3.json": "file(entities/humans/male/male_3.json)"
+      "stonehearth/entities/humans/male/male_3.json": "file(entities/humans/male/male_3.json)",
+      "hunter/jobs/hunter/hunter_description.json": "file(jobs/hunter/hunter_description.json)"
    },
    "overrides": {
       "stonehearth/data/loadouts/images/items/farmer_hoe.png": "file(jobs/farmer/farmer_hoe/farmer_hoe.png)",
       "stonehearth/data/rigs/entities/humans/effects/hoe_peasant.json": "file(data/rigs/entities/humans/effects/hoe_peasant.json)",
       "stonehearth/data/rigs/entities/humans/effects/hoe_billhook.json": "file(data/rigs/entities/humans/effects/hoe_billhook.json)",
       "stonehearth/data/rigs/entities/rabbit_biped/effects/hoe_peasant.json": "file(data/rigs/entities/rabbit_biped/effects/hoe_peasant.json)",
-      "stonehearth/data/rigs/entities/rabbit_biped/effects/hoe_billhook.json": "file(data/rigs/entities/rabbit_biped/effects/hoe_billhook.json)"
+      "stonehearth/data/rigs/entities/rabbit_biped/effects/hoe_billhook.json": "file(data/rigs/entities/rabbit_biped/effects/hoe_billhook.json)",
+      "stonehearth_ace/lib/transform/transform_lib.lua": "file(temporary_overrides/transform_lib.lua)",
+      "stonehearth_ace/monkey_patches/ace_loot_drops_component.lua": "file(temporary_overrides/ace_loot_drops_component.lua)",
+      "stonehearth_ace/ai/actions/transform/transform_adjacent.lua": "file(temporary_overrides/transform_adjacent.lua)"
    },
    "components": {
-      "peasant_kitchen": "file(components/peasant_kitchen/peasant_kitchen_component.lua)"
+      "peasant_kitchen": "file(components/peasant_kitchen/peasant_kitchen_component.lua)",
+      "chopping_block": "file(components/chopping_block/chopping_block_component.lua)"
    },
-   "controllers": {}
+   "controllers": {
+      "firewood_tracker": "file(services/server/inventory/firewood_tracker_controller.lua)"
+   },
+   "ui": {
+      "js": [
+         "file(ui/game/start_menu/start_menu.js)"
+      ]
+   },
+   "functions": {
+      "add_to_chopping_block_queue": {
+         "controller": "file(call_handlers/chopping_block_call_handler.lua)",
+         "endpoint": "server"
+      }
+   }
 }

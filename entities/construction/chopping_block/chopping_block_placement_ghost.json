@@ -1,0 +1,75 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(chopping_block_ghost.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0.5, "y": 0, "z": 0.5 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+      },
+      "destination": {
+         "region": [
+            {
+               "min": { "x": -1, "y": 0, "z": -1 },
+               "max": { "x": 1, "y": 1, "z": 1 }
+            }
+         ]
+      },
+      "region_collision_shape": {
+         "region": [
+            {
+               "min": { "x": -1, "y": 0, "z": -1 },
+               "max": { "x": 1, "y": 2, "z": 1 }
+            }
+         ],
+         "region_collision_type": "none"
+      },
+      "stonehearth:ghost_form": {},
+      "stonehearth_ace:transform": {}
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(ascendancy_plus:entities.construction.chopping_block.placement_ghost.display_name)",
+         "description": "i18n(ascendancy_plus:entities.construction.chopping_block.placement_ghost.description)",
+         "icon": "file(chopping_block.png)",
+         "category": "workshops",
+         "material_tags": [
+            "stockpile_tool"
+         ]
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 0,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": false
+         }
+      },
+      "stonehearth_ace:transform_data": {
+         "progress_text": "stonehearth_ace:ui.game.unit_frame.transform.progress.building",
+         "transform_uri": "ascendancy_plus:chopping_block",
+         "auto_request": true,
+         "request_action": "stonehearth_ace:transform",
+         "request_action_overlay_effect": "stonehearth_ace:effects:transform_worker_upgrade_overlay_effect",
+         "transforming_worker_effect": "work",
+         "transforming_worker_effect_times": 12,
+         "transform_ingredient_material": "wood resource",
+         "transform_effect": "stonehearth:effects:poof_effect:small",
+         "worker_required_job": {
+            "stonehearth:jobs:worker": true,
+            "stonehearth:jobs:carpenter": true
+         }
+      },
+      "stonehearth_ace:buildable_data": {
+         "requires_terrain": true,
+         "initialize_script": "ascendancy_plus:scripts:buildable:build_chopping_block",
+         "collision_entity": "ascendancy_plus:chopping_block"
+      }
+   }
+}

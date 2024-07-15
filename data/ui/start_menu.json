@@ -1,4 +1,17 @@
 {
+	"place_menu": {
+      "items": {
+         "build_chopping_block": {
+            "ordinal": 3,
+            "name": "i18n(ascendancy_plus:ui.game.menu.build_menu.items.build_chopping_block.display_name)",
+            "description": "i18n(ascendancy_plus:ui.game.menu.build_menu.items.build_chopping_block.description)",
+            "class": "button",
+            "icon": "/ascendancy_plus/ui/game/start_menu/images/build_chopping_block.png",
+            "sticky": true,
+            "hotkey_action": "build:chopping_block"
+         }
+		}
+	},
    "zone_menu": {
 		"items": {
 			"create_farm": {

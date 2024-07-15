@@ -1,0 +1,22 @@
+{
+   "mixins": "/stonehearth/entities/armor/steel_mail/steel_mail_iconic.json",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "mixintypes": {
+            "default": "override"
+         },
+         "default": {
+            "models": [
+               "file(steel_platemail_iconic.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "Steel Lamellar Armor",
+         "icon": "file(steel_platemail.png)"
+      }
+   }
+}

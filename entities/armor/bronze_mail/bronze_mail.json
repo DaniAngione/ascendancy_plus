@@ -1,0 +1,47 @@
+{
+   "mixins": "stonehearth:armor:bronze_breastplate",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "mixintypes": {
+            "default": "override",
+            "female": "override"
+         },
+         "default": {
+            "layer": "armor",
+            "transparent": "false",
+            "models": [
+               "file(bronze_mail.qb)"
+            ]
+         },
+         "female": {
+            "layer": "armor",
+            "transparent": "false",
+            "models": [
+               "file(bronze_mail_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(bronze_mail_iconic.json)"
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "Bronze Hauberk",
+         "icon": "file(bronze_mail.png)",
+         "mixintypes": {
+            "material_tags": "override"
+         },
+         "material_tags": [
+            "bronze",
+            "armor",
+            "medium_armor",
+            "ascendancy_plus_made",
+            "torso",
+            "crafted",
+            "stockpile_equipment"
+         ]
+      }
+   }
+}

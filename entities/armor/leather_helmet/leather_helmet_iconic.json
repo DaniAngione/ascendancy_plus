@@ -1,0 +1,22 @@
+{
+   "mixins": "/stonehearth/entities/armor/leather_helmet/leather_helmet_iconic.json",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "mixintypes": {
+            "default": "override"
+         },
+         "default": {
+            "models": [
+               "file(leather_helmet_iconic.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "Hide Cap",
+         "icon": "file(leather_helmet.png)"
+      }
+   }
+}

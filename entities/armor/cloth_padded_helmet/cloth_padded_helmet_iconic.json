@@ -1,0 +1,22 @@
+{
+   "mixins": "/stonehearth/entities/armor/cloth_padded_helmet/cloth_padded_helmet_iconic.json",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "mixintypes": {
+            "default": "override"
+         },
+         "default": {
+            "models": [
+               "file(cloth_padded_helmet_iconic.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "Padded Northern Cap",
+         "icon": "file(cloth_padded_helmet.png)"
+      }
+   }
+}

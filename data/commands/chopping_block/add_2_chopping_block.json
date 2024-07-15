@@ -1,0 +1,14 @@
+{
+   "type": "command",
+   "name": "add_2_chopping_block",
+   "group": "ascendancy_plus:chopping_block",
+   "display_name": "i18n(ascendancy_plus:data.commands.chopping_block.add_2.display_name)",
+   "description": "i18n(ascendancy_plus:data.commands.chopping_block.add_2.description)",
+   "ordinal": 2,
+   "icon": "file(add_2_chopping_block.png)",
+   "action": "call",
+   "function": "ascendancy_plus:add_to_chopping_block_queue",
+   "args": [
+      2
+   ]
+}

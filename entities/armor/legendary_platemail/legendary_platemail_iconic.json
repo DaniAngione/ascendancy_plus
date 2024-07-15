@@ -1,0 +1,25 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(legendary_platemail_iconic.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": -0.05, "y": 0, "z": 0.05 }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "Vanguard's Chain Mail",
+         "description": "Chain armor akin to the ones from the Empire's royal vanguard.",
+         "icon": "file(legendary_platemail.png)",
+         "is_item": true,
+         "category": "armor"
+      }
+   }
+}

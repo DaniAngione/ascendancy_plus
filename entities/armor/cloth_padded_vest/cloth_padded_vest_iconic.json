@@ -1,0 +1,22 @@
+{
+   "mixins": "/stonehearth/entities/armor/cloth_padded_vest/cloth_padded_vest_iconic.json",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "mixintypes": {
+            "default": "override"
+         },
+         "default": {
+            "models": [
+               "file(cloth_padded_vest_iconic.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "Padded Gambeson",
+         "icon": "file(cloth_padded_vest.png)"
+      }
+   }
+}

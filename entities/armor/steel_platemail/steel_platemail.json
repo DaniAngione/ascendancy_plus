@@ -1,0 +1,52 @@
+{
+   "mixins": "stonehearth:armor:steel_mail",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "mixintypes": {
+            "default": "override",
+            "female": "override"
+         },
+         "default": {
+            "layer": "armor",
+            "transparent": "false",
+            "models": [
+               "file(steel_platemail.qb)"
+            ]
+         },
+         "female": {
+            "layer": "armor",
+            "transparent": "false",
+            "models": [
+               "file(steel_platemail_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(steel_platemail_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "injected_buffs": [
+            "stonehearth_ace:buffs:weather:chilly_resist"
+         ]
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "Steel Lamellar Armor",
+         "icon": "file(steel_platemail.png)",
+         "mixintypes": {
+            "material_tags": "override"
+         },
+         "material_tags": [
+            "steel",
+            "armor",
+            "heavy_armor",
+            "na_made",
+            "crafted",
+            "torso",
+            "stockpile_equipment"
+         ]
+      }
+   }
+}

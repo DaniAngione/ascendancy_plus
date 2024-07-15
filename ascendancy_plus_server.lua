@@ -4,6 +4,9 @@ local service_creation_order = {}
 
 local monkey_patches = {
    ascendancy_plus_town = 'stonehearth.services.server.town.town',
+   ascendancy_plus_equipment_piece_component = 'stonehearth.components.equipment_piece.equipment_piece_component',
+   ascendancy_plus_equipment_component = 'stonehearth.components.equipment.equipment_component',
+   ascendancy_plus_transform_lib = 'stonehearth_ace.lib.transform.transform_lib',
    --ascendancy_plus_job_info_controller = 'stonehearth.services.server.job.job_info_controller',
    --ascendancy_plus_job_service = 'stonehearth.services.server.job.job_service' --Commented out to allow "Level 1 Farmer" crops to be locked for Peasants
 }

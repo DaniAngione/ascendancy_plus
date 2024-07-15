@@ -1,0 +1,22 @@
+{
+   "mixins": "/stonehearth/entities/armor/leather_vest/leather_vest_iconic.json",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "mixintypes": {
+            "default": "override"
+         },
+         "default": {
+            "models": [
+               "file(leather_vest_iconic.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "Hide Vest",
+         "icon": "file(leather_vest.png)"
+      }
+   }
+}

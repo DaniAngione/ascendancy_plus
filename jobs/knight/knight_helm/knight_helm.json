@@ -1,0 +1,39 @@
+{
+   "mixins": "/stonehearth/jobs/knight/knight_helm/knight_helm.json",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "mixintypes": {
+            "default": "override",
+            "female": "override"
+         },
+         "default": {
+            "layer": "hat",
+            "transparent": "false",
+            "models": [
+               "file(knight_helm.qb)"
+            ]
+         },
+         "female": {
+            "layer": "hat",
+            "transparent": "false",
+            "models": [
+               "file(knight_helm_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:equipment_piece": {
+         "additional_equipment": {
+            "ascendancy_plus:armor:visor:steel:open": true
+         },
+         "combat_equipment": {
+            "ascendancy_plus:armor:visor:steel": true
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "icon": "file(knight_helm.png)"
+      }
+   }
+}

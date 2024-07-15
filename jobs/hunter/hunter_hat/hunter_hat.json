@@ -1,0 +1,35 @@
+{
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "layer": "hat",
+            "transparent": "false",
+            "models": [
+               "file(hunter_hat.qb)"
+            ]
+         },
+         "female": {
+            "layer": "hat",
+            "transparent": "false",
+            "models": [
+               "file(hunter_hat_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:equipment_piece": {
+         "render_type": "merge_with_model",
+         "slot": "helmet",
+			"injected_buffs": [
+            "stonehearth_ace:buffs:weather:sunstroke_resist"
+         ],
+         "ilevel": 2,
+         "no_drop": true
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "icon": "file(hunter_hat.png)"
+      }
+   }
+}

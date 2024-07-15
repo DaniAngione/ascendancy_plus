@@ -1,0 +1,36 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(fuel_holder_wood.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0.4, "y": 0, "z": 0.5 },
+         "region_origin": { "x": -0.5, "y": 0, "z": 0.5 }
+      },
+      "render_info": {
+         "scale": 0.1,
+         "animation_table": "file(/data/rigs/entities/containers/small_firewood_shed/small_firewood_shed.json)"
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "Wooden Firewood Shed",
+         "description": "This reliable storage will keep a lot of firewood dry and ready to be used!",
+         "icon": "file(fuel_holder_wood.png)",
+         "category": "storage",
+         "material_tags": [
+            "wood",
+            "containers",
+            "crafted",
+            "furniture",
+            "fuel_holder_wood",
+            "stockpile_furniture"
+         ]
+      }
+   }
+}
